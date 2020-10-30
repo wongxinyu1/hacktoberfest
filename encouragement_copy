@@ -23,6 +23,22 @@ while True:
             feelings_list.append("tired")
             encouragement_list.append("you are stronger than you think")
             counter += 1
+        if each_word == "annoyed":
+            feelings_list.append("annoyed")
+            encouragement_list.append("Stop what you are doing and breath in and out. Why not politely asking the person to stop doing what makes you annoyed? If not, you can just ignore him/her and walk away...")
+            counter += 1
+        if each_word == "useless":
+            feelings_list.append("useless")
+            encouragement_list.append("You are more useful than annoying ads that companies spend thousands on!! I'm sure someone knows your worth! Stay happy or maybe talk to a friend!")
+            counter += 1
+        if each_word == "inferior":
+            feelings_list.append("inferior")
+            encouragement_list.append("Its alright. Although you may feel inferior to some of your other classmates, you shouldn't be comparing yourselves to them and you should work on how to better improve yourself!")
+            counter += 1
+        if each_word == "disappointed"
+            feelings_list.append("disappointed")
+            encouragement_list.append("It's natural that you may feel disappointed by your performance this time around, but I'm sure with hard work and determination you can do better next year!")
+            counter += 1
 
     if counter == 0:
         output = "Sorry I don't really understand. Please use different words?"
